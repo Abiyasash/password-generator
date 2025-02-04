@@ -1,0 +1,58 @@
+body {
+  font-family: Lato;
+  background-color: rgb(191, 219, 253);
+  font-size: 2em;
+}
+
+h1 {
+  background-color: rgb(58, 132, 181);
+  color: white;
+  margin-top: -8px;
+  margin-left: -8px;
+  width: 2560px;
+}
+
+#passwordLengthInput {
+  font-family: Lato;
+  font-size: 0.9em;
+  padding: 3px;
+}
+
+.checkboxInput {
+  accent-color: rgb(7, 126, 35);
+  width: 50px;
+  height: 20px;
+  cursor: pointer;
+}
+
+#excludeCharsInput {
+  font-family: Lato;
+  font-size: 0.9em;
+}
+
+button {
+  margin-right: 10px;
+  font-family: Lato;
+  font-size: 1.25em;
+  font-weight: 700;
+  background-color: rgb(58, 132, 181);
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s, box-shadow 0.15s;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(58, 132, 181);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+#generatedPassword {
+  font-size: 1.25em;
+}
+
+#passwordSpan {
+  font-weight: 700;
+}

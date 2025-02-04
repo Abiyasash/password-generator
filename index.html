@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Password Generator App</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>&nbsp;Password Generator App</h1>
+
+    <h2>Options:</h2>
+
+    <label>&nbsp;&nbsp;&nbsp;Password length (5 - 20):&nbsp;</label>
+
+    <input id="passwordLengthInput" type="number" value="8" min="5" max="20"><br><br>
+
+    <input id="lowercaseCharsCheckbox" class="checkboxInput" type="checkbox">
+    <label>Include Lowercase Characters</label><br><br>
+
+    <input id="uppercaseCharsCheckbox" class="checkboxInput" type="checkbox">
+    <label>Include Uppercase Characters</label><br><br>
+
+    <input id="numbersCheckbox" class="checkboxInput" type="checkbox">
+    <label>Include Numbers</label><br><br>
+
+    <input id="symbolsCheckbox" class="checkboxInput" type="checkbox">
+    <label>Include Symbols</label><br><br>
+
+    <label>&nbsp;Exclude Characters: (List without spaces, case sensitive)&nbsp;</label>
+    <input type="text" id="excludeCharsInput"><br><br>
+
+    <button id="generatePasswordBtn">Generate Password</button>
+    <button id="resetBtn">Reset</button>
+
+    <p id="generatedPassword"></p>
+
+    <script src="index.js"></script>
+  </body>
+</html>
