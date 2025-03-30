@@ -64,7 +64,7 @@ function generatePassword(length,
       .textContent = `Invalid password length.`;
     return;
   }
-  else if (length < 5) {
+  else if (length < 4) {
     document.getElementById("generatedPassword")
       .textContent = `Password length is too small.`;
     return;
